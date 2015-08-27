@@ -1,5 +1,5 @@
 # The bluejava Git Commit Message Format Guide
-*Version 0.5.0*
+*Version 0.5.1*
 
 This is a guide to creating better Git commit messages. By following this guide, you and/or your team will create a more consistent and consistently useful change log.
 
@@ -119,7 +119,7 @@ Often a change will include more than one type. Use the type highest on this lis
 
 For example, a new feature (FEAT type) will often also include new documentation (DOCS) and tests (TEST). In this case, simply state the type as **FEAT**.
 
-If the change is a bugfix (FIX) that required some refactoring (REFACTOR), that is less obvious and probably helpful to be stated as a multi-type change, **FIX/REFACTOR**.
+If the change is a bugfix (FIX) that required changes to the build script (MAINT), that is less obvious and probably helpful to be stated as a multi-type change, **FIX/MAINT**.
 
 Note the relationship between various *types* of commits and the expectation of a corresponding change in [Semantic Versioning (SemVer)](http://semver.org) version number:
 
